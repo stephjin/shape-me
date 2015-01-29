@@ -1,1 +1,24 @@
-The square seems to be shy today..
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Look A Square -- January 28, 2014</title>
+  <link rel="stylesheet" type="text/css" href="css/lookasquare.css">
+</head>
+<body>
+
+  <canvas id="myCanvas" width="800px" height="600px">Dawg, your browser doesn't support canvas.</canvas>
+
+  <script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+    ctx.rect(250,180,300,300);
+    ctx.fillStyle = "#C5EFF7";
+    ctx.fillRect(250,180,300,300);
+    ctx.strokeStyle = "#F64747";
+    ctx.lineWidth = 4;
+    ctx.strokeRect(250,180,300,300);
+  </script>
+
+</body>
+</html>
