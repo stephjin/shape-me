@@ -1,0 +1,172 @@
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 23% 5% 5% 5%;
+  display: inline-block;
+  position: relative;
+}
+
+#grad1 {
+  background: -webkit-linear-gradient(left, #446CB3 , #E4F1FE); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #446CB3, #E4F1FE); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #446CB3, #E4F1FE); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #446CB3 , #E4F1FE); /* Standard syntax (must be last) */
+      /* Chrome, Safari, Opera */
+  -webkit-animation-name: wiggles1;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+  /* Standard syntax */
+  animation-name: wiggles1;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+
+#grad2 {
+  background: -webkit-linear-gradient(left, #E4F1FE, #4183D7);
+  background: -o-linear-gradient(right, #E4F1FE, #4183D7);
+  background: -moz-linear-gradient(right, #E4F1FE, #4183D7);
+  background: linear-gradient(to right, #E4F1FE, #4183D7);
+  -webkit-animation-name: wiggles2;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: wiggles2;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+#grad3 {
+  background: -webkit-linear-gradient(left, #4183D7, #336E7B);
+  background: -o-linear-gradient(right, #4183D7, #336E7B);
+  background: -moz-linear-gradient(right, #4183D7, #336E7B);
+  background: linear-gradient(to right, #4183D7, #336E7B);
+  -webkit-animation-name: wiggles3;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: wiggles2;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+#grad4 {
+  background: -webkit-linear-gradient(left, #336E7B, #22313F);
+  background: -o-linear-gradient(right, #336E7B, #22313F);
+  background: -moz-linear-gradient(right, #336E7B, #22313F);
+  background: linear-gradient(to right, #336E7B, #22313F);
+  -webkit-animation-name: wiggles4;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: wiggles2;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#grad5 {
+  background: -webkit-linear-gradient(left, #22313F, #81CFE0);
+  background: -o-linear-gradient(right, #22313F, #81CFE0);
+  background: -moz-linear-gradient(right, #22313F, #81CFE0);
+  background: linear-gradient(to right, #22313F, #81CFE0);
+    -webkit-animation-name: wiggles2;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: wiggles2;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+#grad6 {
+  background: -webkit-linear-gradient(left, #81CFE0, #19B5FE);
+  background: -o-linear-gradient(right, #81CFE0, #19B5FE);
+  background: -moz-linear-gradient(right, #81CFE0, #19B5FE);
+  background: linear-gradient(to right, #81CFE0, #19B5FE);
+    -webkit-animation-name: wiggles1;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+  /* Standard syntax */
+  animation-name: wiggles1;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+
+@-webkit-keyframes wiggles1 {
+  0%   {left:0px; top:0px;}
+  25%  {left:10px; top:0px;}
+  50%  {left:10px; top:10px;}
+  75%  {left:0px; top:10px;}
+  100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes wiggles1 {
+  0%   {left:0px; top:0px;}
+  25%  {left:10px; top:0px;}
+  50%  {left:10px; top:10px;}
+  75%  {; left:0px; top:10px;}
+  100% {left:0px; top:0px;}
+}
+
+@-webkit-keyframes wiggles2 {
+  0%   {left:0px; top:0px;}
+  25%  {left:5px; top:0px;}
+  50%  {left:5px; top:5px;}
+  75%  {left:0px; top:5px;}
+  100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes wiggles2 {
+  0%   {left:0px; top:0px;}
+  25%  {left:5px; top:0px;}
+  50%  {left:5px; top:5px;}
+  75%  {; left:0px; top:5px;}
+  100% {left:0px; top:0px;}
+}
+
+@-webkit-keyframes wiggles3 {
+  0%   {left:-20px; top:-20px;}
+  25%  {left:95px; top:-20px;}
+  50%  {left:95px; top:95px;}
+  75%  {left:-20px; top:95px;}
+  100% {left:-20px; top:-20px;}
+}
+
+/* Standard syntax */
+@keyframes wiggles3 {
+  0%   {left:-20px; top:-20px;}
+  25%  {left:95px; top:-20px;}
+  50%  {left:95px; top:95px;}
+  75%  {; left:-20px; top:95px;}
+  100% {left:-20px; top:-20px;}
+}
+
+@-webkit-keyframes wiggles4 {
+  0%   {left:-70px; top:0px;}
+  50%  {left:95px; top:95px;}
+  100% {left:-70px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes wiggles4 {
+  0%   {left:-70px; top:0px;}
+  50%  {left:95px; top:95px;}
+  100% {left:-70px; top:0px;}
+}
